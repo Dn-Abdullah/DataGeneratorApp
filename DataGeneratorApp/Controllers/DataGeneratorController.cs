@@ -26,7 +26,7 @@ namespace DataGeneratorApp.Controllers
         {
 
             int abc = Int32.Parse(Items);
-            string[] Name = new string[] { "Syed", "Abdllah", "Faheem", "Ashraf", "Ali", "Aslam", "Waseem", "Naeem", "Wafa", "Hussain" };
+            string[] Name = new string[] { "Syed", "Abdllah", "Faheem", "Ashraf", "Ali", "Aslam", "Waseem", "Naeem", "Wafa", "Hussain","Abbas" };
             string[] ProductName = new string[] { "Iphone 13", "Iphone 12", "Samsung S-21", "Samsung S-20", "Pixel 6", "One Plus", "Samsung Note-20", "Samsung Note-21" };
             double[] Price = new double[] { 50.00, 55, 60, 35, 40, 45, 46, 48, 58, 96 };
             string[] Description = new string[] { "Samsung Galaxy-s21-5G is one of the top selling smartphones that is available Now.",

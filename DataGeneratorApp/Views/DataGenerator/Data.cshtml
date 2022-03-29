@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Data";
+}
+
+<h4>Data Generator</h4>
+<hr />
+
+
+
+@using (Html.BeginForm())
+{
+    <label>Enter number of Items you want to generate </label>
+    <input type="text" name="Items" />
+    @*@Html.TextBox("reportName", null, new { required = "required"  })*@
+
+    <input type="submit" value="Generate" />
+}
+
+@if (ViewBag.Message != null)
+{
+    <script type="text/javascript">
+        window.onload = function () {
+            alert("@ViewBag.Message");
+        };
+    </script>
+}
